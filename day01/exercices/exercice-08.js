@@ -15,3 +15,11 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let strnum = "10";
+let num = 10;
+console.log(strnum == num);
+console.log(strnum === num);
+
+// the == check for values
+// the === check for values and types

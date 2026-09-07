@@ -15,3 +15,13 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+const numero = "0612345678";
+
+if (numero[0] == 0 && numero[1] == 6 || numero[1] == 7  && numero.length === 10) {
+    console.log("Numéro valide");
+} else {
+    console.log("Numéro invalide");
+}
+
+

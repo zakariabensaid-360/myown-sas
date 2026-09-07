@@ -19,3 +19,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+hasAccount = false;
+isGuest = true;
+cartValue = 150;
+isBanned = false;
+const system = (isbanned, hasAccount, isGuest, cartValue) => {
+    if (!isbanned && (hasAccount || (isGuest && cartValue > 100))) {
+        return "Commande validée";
+    } else {
+        return "Commande refusée";
+    }
+
+}
+console.log(system(isBanned, hasAccount, isGuest, cartValue));

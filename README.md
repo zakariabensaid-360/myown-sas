@@ -7,9 +7,9 @@
 
 | Information | À compléter |
 |---|---|
-| Nom et prénom | ... |
-| Classe | ... |
-| Nom d'utilisateur GitHub | ... |
+| Nom et prénom | Zakaria bensaid |
+| Classe | Amine |
+| Nom d'utilisateur GitHub | zakariabensaid-360 |
 
 ## 🧭 Comment travailler
 

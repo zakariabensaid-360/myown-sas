@@ -1,0 +1,9 @@
+{
+  "name": "sas-javascript-console",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Programme progressif SAS JavaScript Console",
+  "scripts": {
+    "test": "node scripts/verifier.mjs"
+  }
+}

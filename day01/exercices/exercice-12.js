@@ -17,14 +17,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
 
-
-
-// i dont know how to do this one
-
-
-// trying to solve not sure about the answer
 const annee = 2024
 
 if(annee % 4 == 0) {

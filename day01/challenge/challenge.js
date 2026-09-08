@@ -21,7 +21,7 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
 
 
 let montantEmprunte = 100000
@@ -31,7 +31,7 @@ let revenuMensuel = 8000
 const calculation = (montantEmprunte, dureeEnMois, revenuMensuel) => {
     const mensualite = montantEmprunte / dureeEnMois
     if(mensualite > 2400) {
-        console.log("Prêt accordé. Mensualité : " + "[" + mensualite.toString +"]" + "MAD")
+        console.log("Prêt accordé. Mensualité : " + "[" + mensualite.toString() +"]" + "MAD")
     } else {
         console.log("Prêt refusé")
     }

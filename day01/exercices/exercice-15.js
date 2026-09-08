@@ -17,13 +17,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
 
 let prixExtrait = "  349.99 MAD  ";
 let prixNettoyé = prixExtrait.trim()
-// "349.99 MAD"
 let prixSansDevise = prixNettoyé.replace(" MAD", "")
-// "349.99"
 let prixNumber = Number(prixSansDevise)
 console.log(prixNumber * 2)
 

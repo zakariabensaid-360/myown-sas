@@ -9,7 +9,6 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
 
 
 const data = "123";

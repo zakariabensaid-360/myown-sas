@@ -9,7 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
 
 let age = 20;
 if (age >= 18) {

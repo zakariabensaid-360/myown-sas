@@ -24,16 +24,25 @@
 
 
 
-let montantEmprunte = 100000
-let dureeEnMois = 24
-let revenuMensuel = 8000
+'use strict';
 
-const calculation = (montantEmprunte, dureeEnMois, revenuMensuel) => {
-    const mensualite = montantEmprunte / dureeEnMois
-    if(mensualite > 2400) {
-        console.log("Prêt accordé. Mensualité : " + "[" + mensualite.toString() +"]" + "MAD")
+let montantEmprunte = 100000;
+let dureeEnMois = 24;
+let revenuMensuel = 8000;
+
+const simulationPret = (montant, duree, revenu) => {
+    const mensualité = montant / duree
+    const limit = revenu * 0.3
+
+    if (mensualité <= limit) {
+        console.log("Prêt accordé. Mensualité : " + mensualité + " MAD")
+    } else if(mensualité > 10000) {
+        console.log("Prêt refusé, Nous vous proposons d'augmenter la durée")
     } else {
         console.log("Prêt refusé")
     }
-    return;
-}
+
+
+};
+
+simulationPret(montantEmprunte, dureeEnMois, revenuMensuel);

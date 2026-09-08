@@ -19,7 +19,14 @@
 
 > Quelle est la différence fondamentale entre `let`, `const` et `var` en JavaScript ?
 
-- [ ] J'ai recherché et compris la notion.
+- [ 
+    var it can declare variable in function scope and global scope and also allow to be modified
+
+
+    let it can declare variable in block scope and can not redeclare in same block scope
+
+    const it can declare a variable and it have a constant value that cant change 
+] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -31,7 +38,17 @@
 
 > Quels sont les 7 types primitifs de données en JavaScript ?
 
-- [ ] J'ai recherché et compris la notion.
+- [
+    string example: "Youcode"
+    number example: 5
+    Boolean example: true / false
+    Undefined example: undefiend
+    Null example null
+    Object example {}
+    Array example []
+
+
+ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -49,6 +66,7 @@
 
 > À compléter avec mes propres mots.
 
+null have type of an object
 ---
 
 ### Question 04
@@ -61,6 +79,8 @@
 
 > À compléter avec mes propres mots.
 
+== is does compare the values
+=== it does compare the values in types
 ---
 
 ### Question 05
@@ -73,6 +93,9 @@
 
 > À compléter avec mes propres mots.
 
+it will make an error because we can not change the const value after declartion
+
+
 ---
 
 ### Question 06
@@ -81,10 +104,12 @@
 
 - [ ] J'ai recherché et compris la notion.
 
+
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
 
+it will make the sum of this two values and convert it into string
 ---
 
 ### Question 07
@@ -97,6 +122,7 @@
 
 > À compléter avec mes propres mots.
 
+it shows the rest of the division and its used alot to get check numbers
 ---
 
 ### Question 08
@@ -105,10 +131,12 @@
 
 - [ ] J'ai recherché et compris la notion.
 
+
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
-
+`&&` its AND it forced both values to be true
+`||` its OR it does not force us both values to be true only is required
 ---
 
 ### Question 09
@@ -120,6 +148,9 @@
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
+switch can be used when we have alot of cases
+
+if else can be used for checking on small cases
 
 ---
 

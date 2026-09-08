@@ -30,7 +30,7 @@ let montantEmprunte = 100000;
 let dureeEnMois = 24;
 let revenuMensuel = 8000;
 
-const simulationPret = (montant, duree, revenu) => {
+const system = (montant, duree, revenu) => {
     const mensualité = montant / duree
     const limit = revenu * 0.3
 
@@ -45,4 +45,4 @@ const simulationPret = (montant, duree, revenu) => {
 
 };
 
-simulationPret(montantEmprunte, dureeEnMois, revenuMensuel);
+system(montantEmprunte, dureeEnMois, revenuMensuel);

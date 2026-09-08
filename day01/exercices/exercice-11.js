@@ -20,8 +20,8 @@
 
 let panier = 350;
 if (panier > 500) {
-    panier *= 0.1;
-    console.log(`Coût final: ${panier} MAD, Livraison: Gratuite`);
+    let discount = panier * 0.1;
+    console.log(`Coût final: ${panier - discount} MAD, Livraison: Gratuite`);
 } else if (panier > 200) {
     console.log(`Coût final: ${panier} MAD, Livraison: Gratuite`);
 } else {

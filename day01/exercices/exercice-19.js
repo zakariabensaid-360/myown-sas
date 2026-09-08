@@ -19,10 +19,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-hasAccount = false;
-isGuest = true;
-cartValue = 150;
-isBanned = false;
+let hasAccount = false;
+let isGuest = true;
+let cartValue = 150;
+let isBanned = false;
 const system = (isbanned, hasAccount, isGuest, cartValue) => {
     if (!isbanned && (hasAccount || (isGuest && cartValue > 100))) {
         return "Commande validée";

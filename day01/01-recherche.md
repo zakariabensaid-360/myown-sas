@@ -163,7 +163,7 @@ if else can be used for checking on small cases
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
-
+0 and "" and null
 
 ## ✅ Validation de la recherche
 

@@ -9,4 +9,12 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let lines = '*';
+let base = ""
+for (let i = 1; i <= 3; i++) {
+   for (let j = 1; j <= 3; j++) {
+    base += lines;
+}
+base += "\n";
+}
+console.log(base);

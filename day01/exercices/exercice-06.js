@@ -19,6 +19,6 @@
 // 2. Écris ta solution sous cette ligne.
 let compteur = 0
 for (let i = 0; i < 3; i++) {
-      compteur++
-      console.log(compteur)
+      compteur++     
 }
+console.log(compteur)

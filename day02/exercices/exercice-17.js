@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let pages = 5;
+while (pages > 0) {
+    if (pages === 1) {
+        console.log(`Scraping page ${6 - pages} (5 items)`);
+        break;
+    }
+    console.log(`Scraping page ${6 - pages} (10 items)`);
+    pages--;
+}

@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+for (let i = 100; i <= 999; i++) {
+    let sum = 0
+    let power = 0
+    let digits = 0
+    power = i.toString().split('').length
+    digits = i.toString().split('')
+    digits.forEach(digit => {
+        sum += Math.pow(parseInt(digit), power)
+    })
+
+    if (sum === i) {
+        console.log(i)
+    }
+}
+

@@ -17,4 +17,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let N = 15;
+while (N !== 1) {
+    if (N % 2 === 0) {
+        console.log(N + " est pair, on le divise par 2 : " + (N / 2));
+    } else {
+        console.log(N + " est impair, on le multiplie par 3 et on ajoute 1 : " + (N * 3 + 1));
+    } 
+    --N  
+}
+

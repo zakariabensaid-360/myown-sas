@@ -17,4 +17,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let result = 1;
+for (let i = 6; i > 0; i--) {
+  
+  result *= i;
+
+}  
+console.log(result);

@@ -22,9 +22,7 @@ const annee = 2024
 
 if(annee % 4 == 0 && annee % 400 != 0 && annee % 100 != 0) {
     console.log("2024 est une année bissextile.")
-} else {
-    return;
-}
+} 
 
 
 

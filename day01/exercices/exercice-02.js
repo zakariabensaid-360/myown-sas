@@ -20,4 +20,4 @@ const prenom = 'Jhon'
 const nom = 'Doe'
 
 
-console.log("Bonjour, je m'appelle" + prenom + " " + nom)
+console.log("Bonjour, je m'appelle " + prenom + " " + nom)

@@ -23,7 +23,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> 'for' is used when loop times number is already known, 'while' is used to loop on while a condition is true
 
 ---
 
@@ -35,7 +35,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> 'do...while' it does excute the code each time it runs, 'while' it does excute the code while the condition is true
 
 ---
 
@@ -47,7 +47,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> Infinite loop
 
 ---
 
@@ -59,7 +59,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> break it stops the loop no matter what was the condition or the loop number it will stop and go back parent scope block
 
 ---
 
@@ -67,11 +67,11 @@
 
 > À quoi sert le mot-clé `continue` à l'intérieur d'une boucle ?
 
-- [ ] J'ai recherché et compris la notion.
+- [ ] 
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> it will continue and skip the rest of the code and jump directly to the next round of the loop
 
 ---
 
@@ -83,7 +83,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> first thing initialisation is the first thing happen it does declare the variable then the condition check and then increase the variable to make it match the condition
 
 ---
 
@@ -95,7 +95,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> yes you can declare the variable outside the for but it should be already declared to be used
 
 ---
 
@@ -107,7 +107,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> its a loop inside loop is used to deal with Multidimensional data
 
 ---
 
@@ -119,7 +119,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> time complexty we have a loop the take "n" as many times can be looped O(n) depends on n but if ze used 2 nested loops it be O(n**2) 
 
 ---
 
@@ -131,7 +131,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> it can be used for example if we had a multiple command list
 
 
 ## ✅ Validation de la recherche

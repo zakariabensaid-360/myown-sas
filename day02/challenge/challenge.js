@@ -21,4 +21,27 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+ const codeSecret = 739;
+ let attempts = 0;
+ let found = false;
+
+for (let c1 = 0; c1 <= 9; c1++) {
+    for (let c2 = 0; c2 <= 9; c2++) {
+        for (let c3 = 0; c3 <= 9; c3++) {
+            attempts++;
+            if (codeSecret == c3 * 100 + c2 * 10 + c1) {
+                found = true
+            }
+            if (found) {
+                break;
+            }
+        }
+            if (found) {
+                break;
+            }
+    
+    }
+
+}
+
+console.log('has been cracked in ' + attempts)

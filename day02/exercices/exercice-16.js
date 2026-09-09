@@ -22,12 +22,14 @@
 // 2. Écris ta solution sous cette ligne.
 
 let space = ' ';
-let lines = '*';
-
+let stars = '*';
+let base = ""
 for (let i = 1; i <= 5; i++) {
-    if (i === 1) {
-        console.log(space.repeat(4) + lines);
-    } else {
-       console.log(space.repeat(5 - i) + lines.repeat(i * 2 - 1));
-    }   
+   for (let j = 5;  j >= 1; j--) {
+    base += space
+   }   
+   base += stars
+   base += '\n' 
 }
+
+console.log(base)

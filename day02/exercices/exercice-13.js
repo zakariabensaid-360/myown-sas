@@ -19,9 +19,9 @@ let current = 0;
 let next = 1;
 let fibonacci = 0;
 for (let i = 0; i < 10; i++) {
+    console.log(fibonacci);
     fibonacci = current + next;
     current = next;
     next = fibonacci;
-    console.log(fibonacci);
 }
 

@@ -24,12 +24,11 @@
 let space = ' ';
 let stars = '*';
 let base = ""
-for (let i = 1; i <= 5; i++) {
-   for (let j = 5;  j >= 1; j--) {
-    base += space
-   }   
-   base += stars
-   base += '\n' 
+for (let i = 0; i < 5; i++) {
+    for (let j = 1; j <= 5 - i; j++) {
+        base += space;
+    }   
+    base += stars
+    base += '\n'
 }
-
 console.log(base)

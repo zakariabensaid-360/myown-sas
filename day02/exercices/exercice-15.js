@@ -17,14 +17,27 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 let space = ' ';
-let lines = '*';
-
+let star = '*';
+let base = ""
 for (let i = 1; i <= 5; i++) {
     if (i === 1) {
-        console.log(space.repeat(4) + lines);
+        for (let j = 0; j < 5; j++) {
+            base += space
+        }
+        base += star
+        base += "\n"
     } else {
-        console.log(space.repeat(5 - i) + lines.repeat(i));
+
+for (let j = 0; j <= 5 - i ; j++) {
+    base += space
+}
+
+for (let k = 0; k < i  ; k++) {
+    base += star
+    
+}
+ base += "\n"
     }
 }
 
-
+console.log(base)

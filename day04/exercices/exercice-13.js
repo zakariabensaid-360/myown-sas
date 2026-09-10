@@ -16,13 +16,26 @@
 // 2. Écris ta solution sous cette ligne.
 
 function genererMotDePasse(longueur) {
-    let chars = "azertyuiopqsdfghjklmwxcvbn,;:&é123456789"
     let motDePasse = ""
-    for (let i = 0; i < longueur; i++) {
-        motDePasse += chars[Math.floor(Math.random() * chars.length)]
-       
-    }
-     console.log(motDePasse)
-}
-genererMotDePasse(8)
+    let str = "aazertyuiopqsdfghjklmwxcvbn"
+    let num = "123456789" 
+    let rand = Math.round(Math.random())
+    if(rand == 0) {
+        for (let i = 0; i < longueur; i++) {
+            motDePasse += str[Math.round(Math.random() * str.length)] 
+        }
+        motDePasse += "A"
+        return motDePasse
+    } else {
+        for (let i = 0; i < longueur; i++) {
+            motDePasse += num[Math.round(Math.random() * num.length)] 
+        }
+        return motDePasse
 
+    }
+
+}
+
+
+
+console.log(genererMotDePasse(8))

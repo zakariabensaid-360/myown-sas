@@ -18,7 +18,9 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 let N = 15;
+let counter = 0
 while (N !== 1) {
+    counter++
     if (N % 2 === 0) {
         console.log(N + " est pair, on le divise par 2 : " + (N / 2));
     } else {
@@ -27,3 +29,4 @@ while (N !== 1) {
     --N  
 }
 
+console.log("it took " + counter + " to reach 1")

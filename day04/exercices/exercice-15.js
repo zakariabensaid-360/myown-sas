@@ -17,13 +17,9 @@
 // 2. Écris ta solution sous cette ligne.
 
 function fibonacci(n) {
-    if(n <= 1) return n;
-    let current = 0
-    let next = 1
-    let fib = 0
-    for (let i = 0; i < n; i++) {
-        fib = current + next
-        current = next
-        next = fib
-    }
+   if(n <= 1) return n;
+
+   return fibonacci(n - 1) + fibonacci(n - 2)
 }
+
+console.log(fibonacci(10))

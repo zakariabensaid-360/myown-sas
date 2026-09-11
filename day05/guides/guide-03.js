@@ -8,6 +8,9 @@
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
+
+
+
 let text = "youcode-safi-2024"
 let foramated = ""
 for (let i = 0; i < text.length ; i++) {

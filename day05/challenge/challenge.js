@@ -23,4 +23,22 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+function filtrerMessage(message) {
+    const ForbiddenWords = ["noob", "idiot", "nul"]   
+    let safeMessage = ""
+    message.split(" ").forEach(word => {
+        for (let i = 0; i < ForbiddenWords.length; i++) {
+            if(word.toLocaleLowerCase() == ForbiddenWords[i]) {
+                word = "****"
+            }
+            
+        }
+        safeMessage += word + " "
+    })
+
+    return safeMessage
+}
+
+
+console.log(filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!"))

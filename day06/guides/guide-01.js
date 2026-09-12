@@ -9,4 +9,6 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+const  fruits = ["Pomme", "Banane", "Orange"]
+
+console.log(fruits[fruits.length - 1])

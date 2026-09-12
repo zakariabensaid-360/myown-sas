@@ -9,4 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let queue = ["Alice", "Bob", "Charlie"]
+let box = queue.slice(1, 3)
+box.push('David')
+console.log(box)

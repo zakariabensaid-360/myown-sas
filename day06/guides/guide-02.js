@@ -8,5 +8,15 @@
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
+let notes = [12, 15, 8, 19]
+let TotalNotes = 0
+let Totalstudents =  notes.length 
 
-// TODO: écris ta solution ici.
+
+notes.forEach(note => {
+    TotalNotes += note
+})
+
+let result = TotalNotes / Totalstudents
+
+console.log(result)

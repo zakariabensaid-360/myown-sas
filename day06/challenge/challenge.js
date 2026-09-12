@@ -19,4 +19,44 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+
+let panier = [101, 105, 101, 102]
+
+function ajouterAuPanier(id) {
+    panier.push(id)
+}
+
+function retirerDuPanier(id) {
+    let box = []
+
+    for (let i = 0; i < panier.length; i++) {
+        if (panier[i] == id) {
+            continue;    
+        }
+        box.push(panier[i])
+        
+    }
+    panier = box
+    console.log(panier)
+}
+
+function afficherQuantites() {
+    let items = new Map()
+    for (let i = 0; i < panier.length; i++) {
+        if(items.get(panier[i]) == undefined) {
+            items.set(panier[i], 1)
+            continue;
+        }
+        items.set(panier[i], items.get(panier[i]) + 1)
+        
+    }
+        items.forEach((value, id) => {
+        console.log(` Article ${id} : ${value} exemplaires`)
+    })
+    return items
+}
+ajouterAuPanier(103)
+ajouterAuPanier(103)
+retirerDuPanier(101)
+afficherQuantites()

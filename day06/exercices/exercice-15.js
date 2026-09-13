@@ -17,21 +17,26 @@
 
 let arr1 = [1, 3, 5]
 let arr2 = [2, 4, 6]
+let arr3 = [13, 7, 2]
 
-let full = [...arr1, ...arr2]
+let full = [...arr3,...arr1, ...arr2]
+
 function sorting(arr) {
-    let temp = 0
+    let temp;
     for (let i = 0; i < arr.length; i++) {
- 
 
-        if (arr[i] > arr[i+1]) {
-            temp = arr[i] 
+        for (let j = 0; j < arr.length; j++) {
+            if (arr[j] > arr[j + 1]) {
+                temp = arr[j]
 
-            arr[i] = arr[i+1]
-            arr[i+1] = temp
-        } 
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp
+            }
+
+        }
+
     }
     return arr
 }
 
-console.log(sorting(sorting(full)))
+console.log(sorting(full))

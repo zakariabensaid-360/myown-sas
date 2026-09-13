@@ -17,9 +17,9 @@
 
 let arr1 = [1, 3, 5]
 let arr2 = [2, 4, 6]
-let arr3 = [13, 7, 2]
 
-let full = [...arr3,...arr1, ...arr2]
+
+let full = [...arr1, ...arr2]
 
 function sorting(arr) {
     let temp;

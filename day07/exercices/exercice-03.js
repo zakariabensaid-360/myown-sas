@@ -16,3 +16,11 @@
 // 2. Écris ta solution sous cette ligne.
 
 
+const obj = {
+    nom: "zakaria",
+    age: 20,
+    estAdmin: false
+}
+delete obj.estAdmin
+
+console.log(obj)

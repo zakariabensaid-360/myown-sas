@@ -16,4 +16,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+let api = '{"id":1, "titre":"Apprendre le JS", "vu":false}'
+
+const reapi = JSON.parse(api)
+
+
+console.log(reapi);

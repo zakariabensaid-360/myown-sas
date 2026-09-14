@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+
+let chars = "abracadabra"
+let obj = {}
+for (let i = 0; i < chars.length; i++) {
+    if (obj[chars[i]] == undefined) {
+        obj[chars[i]] = 1
+        continue
+    }
+    obj[chars[i]] =  obj[chars[i]] + 1
+}
+
+
+console.log(obj)

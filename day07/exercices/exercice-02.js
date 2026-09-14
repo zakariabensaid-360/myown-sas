@@ -15,4 +15,12 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-4
+const obj = {
+    nom: "zakaria",
+    age: 20,
+    estAdmin: false
+}
+
+obj.age = obj.age + 1
+obj.email = "zakaria@gmail.com"
+console.log(obj)

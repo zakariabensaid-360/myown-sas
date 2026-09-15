@@ -17,8 +17,8 @@
 
 let compteBancaire = {
     solde: 0,
-    deposer: (amount) => {
-        compteBancaire.solde =  amount
+    deposer: function (amount)  {
+        this.solde =  amount
     }
 }
 

@@ -20,3 +20,7 @@ const obj = {
     age: 20,
     estAdmin: false
 }
+
+obj.age = obj.age + 1
+obj.email = "zakaria@gmail.com"
+console.log(obj)

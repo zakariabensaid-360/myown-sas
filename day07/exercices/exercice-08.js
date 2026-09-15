@@ -14,4 +14,26 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let arr = [{
+    name: 'zaki',
+    score: 10
+},{
+    name: 'amine',
+    score: 7
+},{
+    name: 'idk',
+    score: 12
+},]
+let temp;
+for (let i = 0; i < arr.length; i++) {
+     if(temp == undefined) {
+        temp = arr[i]
+        continue
+     }
+     if(temp.score < arr[i].score) {
+        temp = arr[i]
+     }
+}
+
+console.log(temp)

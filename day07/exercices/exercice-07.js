@@ -14,4 +14,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+let arr = [{
+    titre: " 1ème livre",
+    auteur: "anything"
+},{
+    titre: " 2ème livre",
+    auteur: "anything"
+},{
+    titre: " 3ème livre",
+    auteur: "anything"
+}]
+
+console.log(arr[1].titre)

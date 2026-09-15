@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let arr = [{ nom: "A", groupe: 1 }, { nom: "B", groupe: 2 }, { nom: "C", groupe: 1 }]
+let obj = {}
+for (let i = 0; i < arr.length; i++) {
+    if (obj[arr[i].groupe] == undefined) {
+        obj[arr[i].groupe] = [{
+            nom: arr[i].nom
+        }]
+    } else {
+        obj[arr[i].groupe].push({
+            nom: arr[i].nom
+        })
+    }
+
+}
+console.log(obj)
